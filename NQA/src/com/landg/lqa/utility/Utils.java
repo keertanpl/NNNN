@@ -107,7 +107,10 @@ public class Utils {
 
 	public static WebDriver OpenFirefoxBrowser() throws Exception {
 		try {
-
+			System.setProperty("webdriver.gecko.driver",
+					System.getProperty("user.dir") + "\\Drivers"
+							+ "\\geckodriver.exe");
+			
 			driver = new FirefoxDriver();
 
 			driver.manage().timeouts().implicitlyWait(60L, TimeUnit.SECONDS);
