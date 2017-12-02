@@ -49,7 +49,7 @@
   <configuration>
     <mainClass>com.landg.lqa.testflow.TestFlow01</mainClass>
     <arguments>
-      <argument>Chrome</argument>
+      <argument>ie</argument>
       <argument>Preprod</argument>
          <argument>Health Check</argument>
     </arguments>
