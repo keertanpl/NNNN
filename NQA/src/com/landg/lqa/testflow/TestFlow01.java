@@ -74,6 +74,7 @@ public class TestFlow01 {
 				+ "\\Test Data" + "\\TestData.xlsx");
 
 		xmlTest.addParameter("Output", System.getProperty("user.dir"));
+		System.out.println(args[0]);
 		xmlTest.addParameter("Browser", args[0]);
 
 		xmlTest.addParameter("Testcase", "");
